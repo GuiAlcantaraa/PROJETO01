@@ -1,4 +1,3 @@
-use BD040684
 
 select * from Estado
 
@@ -16,7 +15,6 @@ CREATE TABLE CIDADE (
 	Nome varchar(200) not null,
 	Uf char (2) not null,
 	
-
 )
 
 alter table cidade 
@@ -24,6 +22,7 @@ add constraint PK_CIDADE_ESTADO foreign key (uf) references Estado (uf)
 
 alter table cidade
 add constraint PK_CIDADE primary key(IdCidade)
+
 
 alter table CLIENTE
 add constraint FK_CIDADE_CLIENTE foreign key (IdCidade) REFERENCES cidade(IdCidade)
@@ -66,4 +65,21 @@ values(3, 'perdizes', 'se')
 	
 insert into estado (Nome, uf)
 values('sergipe', 'Se')
+
+
+ALTER TABLE BARBEIRO 
+ADD CONSTRAINT FK_BARBEIRO_EPEC FOREIGN KEY (IdEspecialidade)
+REFERENCES ESPECIALIDADE_B (IdEspecialidade)
+
+UPDATE CIDADE
+SET NOME = 'SERGIPE'
+WHERE UF = 'SE'
+
+INSERT INTO BARBEIRO(IdBarbeiro, Nome, Cpf, Telefone, IdEspecialidade, PrecoCorte)
+VALUES(1, 'CARLOS', '12345665423',88259161, 1, 15 ) 
+
+INSERT INTO ESPECIALIDADE_B(IdEspecialidade, Especialidade)
+VALUES(1 , 'Degrade')
+
+delete from BARBEIRO
 
