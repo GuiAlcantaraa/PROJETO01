@@ -1,0 +1,45 @@
+﻿@model PROJETO01.Modelos.Barbeiro
+
+
+    <form asp-controller="Barbeiro" asp-action="AdicionarConfirmacao" method="post">
+        <div class="mb-3">
+            <label for="IdBarbeiro" class="form-label">IdBarbeiro:</label>
+            <input asp-for="IdBarbeiro" type="text" class="form-control" placeholder="Digite o id do Barbeiro" />
+        </div>
+
+        <div class="mb-3">
+            <label for="Nome" class="form-label">Nome:</label>
+            <input asp-for="Nome" type="text" class="form-control" placeholder="Digite o nome do barbeiro" />
+        </div>
+
+        <div class="mb-3">
+            <label for="cpf" class="form-label">cpf:</label>
+            <input asp-for="cpf" type="text" class="form-control" placeholder="Digite o cpf" />
+        </div>
+
+        <div class="mb-3">
+            <label for="Telefone" class="form-label">Telefone:</label>
+            <input asp-for="Telefone" type="text" class="form-control" placeholder="Digite o Telefone" />
+        </div>
+
+        <div class="mb-3">
+            <label for="IdEspecialidade" class="form-label">IdEspecialidade:</label>
+            <input asp-for="IdEspecialidade" type="text" class="form-control" placeholder="Digite o IdEspecialidade" />
+        </div>
+
+        <div class="mb-3">
+            <label for="PrecoCorte" class="form-label">PrecoCorte:</label>
+            <input asp-for="PrecoCorte" type="text" class="form-control" placeholder="Digite o preço do corte" />
+        </div>
+
+        <hr />
+
+        <a href="#" class="btn btn-secondary" onclick="javascript:history.back()">
+            VOLTAR
+        </a>
+
+        <button type="submit" class="btn btn-success float-right">
+            SALVAR
+        </button>
+
+    </form>

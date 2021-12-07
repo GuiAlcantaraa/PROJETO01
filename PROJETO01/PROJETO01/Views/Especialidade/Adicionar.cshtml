@@ -1,0 +1,24 @@
+﻿@model  PROJETO01.Modelos.EspecialidadeB
+
+    <form asp-controller="Especialidade" asp-action="AdicionarConfirmacao" method="post">
+        <div class="mb-3">
+
+            <label for="IdEspecialidade" class="form-label">Id da especialidade:</label>
+            <input asp-for="IdEspecialidade" type="text" class="form-control" placeholder="Digite o Id da especialidade" />
+        </div>
+        <div class="mb-3">
+            <label for="Especialidade" class="form-label">Especialidade:</label>
+            <input asp-for="Especialidade" type="text" class="form-control" placeholder="Digite a Especialidade" />
+        </div>
+
+        <hr />
+
+        <a href="#" class="btn btn-secondary" onclick="javascript:history.back()">
+            VOLTAR
+        </a>
+
+        <button type="submit" class="btn btn-success float-right">
+            SALVAR
+        </button>
+
+    </form>

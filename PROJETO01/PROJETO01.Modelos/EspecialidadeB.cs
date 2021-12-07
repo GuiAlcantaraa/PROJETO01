@@ -8,7 +8,7 @@ namespace PROJETO01.Modelos
     {
         public int IdEspecialidade { get; set; }
 
-        public  string Especialidade  { get; set; }
+        public string Especialidade { get; set; }
 
 
     }

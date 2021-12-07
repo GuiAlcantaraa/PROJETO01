@@ -1,0 +1,44 @@
+﻿@model List<PROJETO01.Modelos.Barbeiro>
+
+    <h3>
+    CADASTRO DE BARBEIROS 
+    <a class="btn btn-sm btn-primary float-right" href="/Barbeiro/Adicionar">
+        + ADICIONAR
+    </a>
+</h3>
+
+<table class="table table-hover ">
+         <thead>
+              <tr>
+                <th>IdBarbeiro</th>
+                <th>Nome</th>
+                <th>cpf</th>
+                <th>Telefone</th>
+                <th>IdEspecialidade</th>
+                <th>PrecoCorte</th>
+                <th>Ações</th>
+              </tr>
+        </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdBarbeiro</td>
+                <td>@item.Nome</td>
+                <td>@item.cpf</td>
+                <td>@item.Telefone</td>
+                <td>@item.IdEspecialidade</td>
+                <td>@item.PrecoCorte</td>
+
+                <td>
+                    <a href="/Barbeiro/Editar?IdBarbeiro=@item.IdBarbeiro" class="btn btn-sm btn-warning">
+                        Editar
+                    </a>
+                    <a href="/Barbeiro/Excluir?IdBarbeiro=@item.IdBarbeiro" class="btn btn-sm btn-danger">
+                        Excluir
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -24,3 +24,16 @@ C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJ
 C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CopyComplete
 C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.dll
 C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.pdb
+D:\github\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.deps.json
+D:\github\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.dll
+D:\github\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.pdb
+D:\github\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
+D:\github\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb
+D:\github\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.AssemblyReference.cache
+D:\github\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.AssemblyInfoInputs.cache
+D:\github\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.AssemblyInfo.cs
+D:\github\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CoreCompileInputs.cache
+D:\github\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CopyComplete
+D:\github\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.dll
+D:\github\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.pdb

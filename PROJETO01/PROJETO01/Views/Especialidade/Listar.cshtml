@@ -1,0 +1,35 @@
+﻿@model List<PROJETO01.Modelos.EspecialidadeB>
+
+<h3>
+    CADASTRO DE ESPECIALIDADES
+    <a class="btn btn-sm btn-primary float-right" href="/Especialidade/Adicionar">
+        + ADICIONAR
+    </a>
+</h3>
+
+<table class="table table-hover ">
+    <thead>
+        <tr>
+            <th>IdEspecialidade</th>
+            <th>Especialidade</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdEspecialidade</td>
+                <td>@item.Especialidade</td>
+                <td>
+                    <a href="/Epecialidade/Editar?IdEspecialidade=@item.IdEspecialidade" class="btn btn-sm btn-warning">
+                        Editar
+                    </a>
+                    <a href="/Epecialidade/Excluir?IdEspecialidade=@item.IdEspecialidade" class="btn btn-sm btn-danger">
+                        Excluir
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
