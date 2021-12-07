@@ -8,3 +8,13 @@ C:\Users\040684\Desktop\Renato\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3
 C:\Users\040684\Desktop\Renato\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.csproj.CoreCompileInputs.cache
 C:\Users\040684\Desktop\Renato\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
 C:\Users\040684\Desktop\Renato\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Modelos\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.deps.json
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Modelos\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Modelos\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.csproj.AssemblyReference.cache
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.AssemblyInfoInputs.cache
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.AssemblyInfo.cs
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.csproj.CoreCompileInputs.cache
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb

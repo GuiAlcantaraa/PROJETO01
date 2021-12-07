@@ -12,9 +12,9 @@ namespace PROJETO01.Modelos
 
         public string cpf { get; set; }
 
-        public float precoCorte { get; set; }
+        public float PrecoCorte { get; set; }
 
-        public string telefone { get; set; }
+        public string Telefone { get; set; }
 
         public int IdEspecialidade { get; set; }
 

@@ -17,8 +17,7 @@ namespace PROJETO01.Modelos
         public string Bairro { get; set; }
         public string Numero { get; set; }
         public int IdCidade { get; set; }
-
-        public Cidade cidade { get; set; }
+        public Cidade Cidade { get; set; }
 
     }
 }

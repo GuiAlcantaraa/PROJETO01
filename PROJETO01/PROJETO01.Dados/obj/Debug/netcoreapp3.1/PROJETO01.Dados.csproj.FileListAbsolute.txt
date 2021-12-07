@@ -11,3 +11,16 @@ C:\Users\040684\Desktop\Renato\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1
 C:\Users\040684\Desktop\Renato\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CopyComplete
 C:\Users\040684\Desktop\Renato\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.dll
 C:\Users\040684\Desktop\Renato\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.pdb
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.deps.json
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.dll
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.pdb
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.AssemblyReference.cache
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.AssemblyInfoInputs.cache
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.AssemblyInfo.cs
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CoreCompileInputs.cache
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CopyComplete
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.dll
+C:\repositorios\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.pdb

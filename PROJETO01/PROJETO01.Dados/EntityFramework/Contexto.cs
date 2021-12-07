@@ -34,112 +34,153 @@ namespace PROJETO01.Dados.EntityFramework
         //Definição das características das classes com as tabelas
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+        //
          modelBuilder.Entity<Estado>()
          .ToTable("Estado")
          .HasKey("UF");
 
          modelBuilder.Entity<Estado>()
-         .Property("UF")
+         .Property(f => f.UF)
          .HasColumnName("UF")
          .HasColumnType("char(2)")
          .IsRequired();
 
          modelBuilder.Entity<Estado>()
-         .Property("Nome")
+         .Property(f => f.Nome)
          .HasColumnName("Nome")
          .HasColumnType("varchar(100)")
          .IsRequired();
-
+        //
              modelBuilder.Entity<Cidade>()
              .ToTable("Cidade")
              .HasKey("IdCidade");
 
              modelBuilder.Entity<Cidade>()
-             .Property("IdCidade")
+             .Property(f => f.IdCidade)
              .HasColumnName("IdCidade")
              .HasColumnType("int")
              .IsRequired();
 
              modelBuilder.Entity<Cidade>()
-             .Property("Nome")
+             .Property(f => f.Nome)
              .HasColumnName("Nome")
              .HasColumnType("vachar(200)")
              .IsRequired();
 
              modelBuilder.Entity<Cidade>()
-             .Property("Uf")
+             .Property(f => f.UF)
              .HasColumnName("UF")
              .HasColumnType("char(2)")
              .IsRequired();
-
+         //
                          modelBuilder.Entity<Cliente>()
                          .ToTable("Cliente")
                          .HasKey("IdCliente");
 
                          modelBuilder.Entity<Cliente>()
-                         .Property("Nome")
+                         .Property(f => f.Nome)
                          .HasColumnName("Nome")
                          .HasColumnType("varchar(200)")
                          .IsRequired();
 
                          modelBuilder.Entity<Cliente>()
-                         .Property("Cpf")
+                         .Property(f => f.Cpf)
                          .HasColumnName("Cpf")
                          .HasColumnType("char(11)")
                          .IsRequired();
 
                          modelBuilder.Entity<Cliente>()
-                         .Property("Sexo")
+                         .Property(f => f.Sexo)
                          .HasColumnName("Sexo")
                          .HasColumnType("char(2)")
                          .IsRequired();
 
 
                          modelBuilder.Entity<Cliente>()
-                         .Property("Telefone")
+                         .Property(f => f.Telefone)
                          .HasColumnName("Telefone")
                          .HasColumnType("varchar(200)")
                          .IsRequired();
 
                          modelBuilder.Entity<Cliente>()
-                         .Property("Cep")
+                         .Property(f => f.Cep)
                          .HasColumnName("Cep")
                          .HasColumnType("varchar(20)")
                          .IsRequired();
 
                          modelBuilder.Entity<Cliente>()
-                         .Property("Logradouro")
+                         .Property(f => f.Logradouro)
                          .HasColumnName("Logradouro")
                          .HasColumnType("varchar(200)")
                          .IsRequired();
 
 
                          modelBuilder.Entity<Cliente>()
-                         .Property("Complemento")
+                         .Property(f => f.Complemento)
                          .HasColumnName("Complemento")
                          .HasColumnType("varchar(200)")
                          .IsRequired();
 
                          modelBuilder.Entity<Cliente>()
-                         .Property("Bairro")
+                         .Property(f => f.Bairro)
                          .HasColumnName("Bairro")
                          .HasColumnType("varchar(200)")
                          .IsRequired();
 
                          modelBuilder.Entity<Cliente>()
-                         .Property("Numero")
+                         .Property(f => f.Numero)
                          .HasColumnName("Numero")
                          .HasColumnType("varchar(20)")
                          .IsRequired();
 
                          modelBuilder.Entity<Cliente>()
-                         .Property("IdCidade")
+                         .Property(f => f.IdCidade)
                          .HasColumnName("IdCidade")
                          .HasColumnType("int")
                          .IsRequired();
+         //
+                             modelBuilder.Entity<Barbeiro>()
+                            .ToTable("Barbeiro")
+                            .HasKey("IdBarbeiro");
+
+                             modelBuilder.Entity<Barbeiro>()
+                            .Property(f => f.Nome)
+                            .HasColumnName("Nome")
+                            .HasColumnType("varchar(200)")
+                            .IsRequired();
+
+                             modelBuilder.Entity<Barbeiro>()
+                            .Property(f => f.cpf)
+                            .HasColumnName("Cpf")
+                            .HasColumnType("char(11))")
+                            .IsRequired();
+
+                            modelBuilder.Entity<Barbeiro>()
+                            .Property(f => f.PrecoCorte)
+                            .HasColumnName("PrecoCorte")
+                            .HasColumnType("decimal(16,2)")
+                            .IsRequired();
+
+                            modelBuilder.Entity<Barbeiro>()
+                            .Property(f => f.Telefone)
+                            .HasColumnName("Telefone")
+                            .HasColumnType("varchar(20)")
+                            .IsRequired();
+          //
+
+                                    modelBuilder.Entity<EspecialidadeB>()
+                                   .ToTable("Especialidade_B")
+                                   .HasKey("IdEspecialidade");
+
+                                    modelBuilder.Entity<EspecialidadeB>()
+                                   .Property(f => f.Especialidade)
+                                   .HasColumnName("Especialidade")
+                                   .HasColumnType("varchar(20)")
+                                   .IsRequired();
 
 
             base.OnModelCreating(modelBuilder);
+
         }
         
         
