@@ -166,13 +166,35 @@ namespace PROJETO01.Dados.EntityFramework
                             .HasColumnName("Telefone")
                             .HasColumnType("varchar(20)")
                             .IsRequired();
-          //
 
-                                    modelBuilder.Entity<EspecialidadeB>()
+
+                            modelBuilder.Entity<Barbeiro>()
+                            .Property(f => f.IdEspecialidade)
+                            .HasColumnName("IdEspecialidade")
+                            .HasColumnType("int")
+                            .IsRequired();
+
+            modelBuilder.Entity<Barbeiro>()
+                .HasOne(f => f.EspecialidadeB)
+                .WithMany()
+                .HasForeignKey(f => f.IdEspecialidade);
+
+
+
+
+            //
+
+            modelBuilder.Entity<EspecialidadeB>()
                                    .ToTable("Especialidade_B")
                                    .HasKey("IdEspecialidade");
 
-                                    modelBuilder.Entity<EspecialidadeB>()
+            modelBuilder.Entity<EspecialidadeB>()
+                                  .Property(f => f.IdEspecialidade)
+                                  .HasColumnName("IdEspecialidade")
+                                  .HasColumnType("int")
+                                  .IsRequired();
+
+            modelBuilder.Entity<EspecialidadeB>()
                                    .Property(f => f.Especialidade)
                                    .HasColumnName("Especialidade")
                                    .HasColumnType("varchar(20)")

@@ -14,7 +14,7 @@
                 <th>Nome</th>
                 <th>cpf</th>
                 <th>Telefone</th>
-                <th>IdEspecialidade</th>
+                <th>Especialidade</th>
                 <th>PrecoCorte</th>
                 <th>Ações</th>
               </tr>
@@ -25,10 +25,10 @@
             <tr>
                 <td>@item.IdBarbeiro</td>
                 <td>@item.Nome</td>
-                <td>@item.cpf</td>
+                <td>@Convert.ToInt64(item.cpf).ToString(@"000\.000\.000\-00")</td>
                 <td>@item.Telefone</td>
-                <td>@item.IdEspecialidade</td>
-                <td>@item.PrecoCorte</td>
+                <td>@item.EspecialidadeB.Especialidade</td>
+                <td>@string.Format("{0:c2}", item.PrecoCorte)</td>
 
                 <td>
                     <a href="/Barbeiro/Editar?IdBarbeiro=@item.IdBarbeiro" class="btn btn-sm btn-warning">

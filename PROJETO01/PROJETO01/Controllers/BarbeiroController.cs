@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PROJETO01.Dados.EntityFramework;
 using PROJETO01.Modelos;
 using System.Linq;
@@ -68,7 +69,10 @@ namespace PROJETO01.Controllers
         {
 
             //SELECT * FROM barbeiro
-            var listaDeBarbeiros = new Contexto().Barbeiro.ToList();
+            var listaDeBarbeiros = new Contexto()
+                .Barbeiro
+                .Include(f => f.EspecialidadeB)
+                .ToList();
 
             return View(listaDeBarbeiros);
         }

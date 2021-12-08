@@ -5,6 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\img\1.jpg" />
+    <Content Remove="wwwroot\img\2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\img\1.jpg" />
+    <None Include="wwwroot\img\2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.21" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\PROJETO01.Dados\PROJETO01.Dados.csproj" />
     <ProjectReference Include="..\PROJETO01.Modelos\PROJETO01.Modelos.csproj" />
   </ItemGroup>

@@ -22,18 +22,20 @@ namespace PROJETO01.Controllers
         {
             return View();
         }
-        public IActionResult AdicionarConfirmacao(EspecialidadeB especialidade)
+
+        [HttpPost]
+        public IActionResult AdicionarConfirmacao(EspecialidadeB ent)
         {
             var db = new Contexto();
-            var obj = db.EspecialidadeB.FirstOrDefault(f => f.IdEspecialidade == especialidade.IdEspecialidade);
+            var obj = db.EspecialidadeB.FirstOrDefault(f => f.IdEspecialidade == ent.IdEspecialidade);
 
             if (obj == null)
             {
-                db.EspecialidadeB.Add(especialidade);
+                db.EspecialidadeB.Add(ent);
             }
             else
             {
-                obj.Especialidade = especialidade.Especialidade;
+                obj.Especialidade = ent.Especialidade;
                 db.EspecialidadeB.Update(obj);
             }
 
