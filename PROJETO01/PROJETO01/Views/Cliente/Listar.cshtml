@@ -1,0 +1,63 @@
+﻿@model List<PROJETO01.Modelos.Cliente>
+
+<h3>
+    CADASTRO DE CLIENTES
+    <a class="btn btn-sm btn-primary float-right" href="/Cliente/Adicionar">
+        + ADICIONAR
+    </a>
+</h3>
+
+<table class="table table-hover" >
+        <thead>
+            <tr>
+                <th>IdCliente</th>
+                <th>Nome</th>
+                <th>Cpf</th>
+                <th>Sexo</th>
+                <th>Telefone</th>
+                <th>Cep</th>
+                <th>Logradouro</th>
+                <th>Complemento</th>
+                <th>Bairro</th>
+                <th>Numero</th>
+                <th>IdCidade</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdCliente</td>
+                <td>@item.Nome</td>
+                <td>@Convert.ToInt64(item.Cpf).ToString(@"000\.000\.000\-00")</td>
+                <td>@item.Sexo</td>
+                <td>@item.Telefone</td>
+                <td>@item.Cep</td>
+                <td>@item.Logradouro</td>
+                <td>@item.Complemento</td>
+                <td>@item.Bairro</td>
+                <td>@item.Numero</td>
+                <td>@item.IdCidade</td>
+        
+                
+                <td>
+                    <a href="/Cliente/Editar?IdCliente=@item.IdCliente" class="btn btn-sm btn-warning ">
+                        Editar
+                    </a>
+                    <a href="/Cliente/Excluir?IdCliente=@item.IdCliente" class="btn btn-sm btn-danger ml-2">
+                        Excluir
+                    </a>
+                </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+
+<style>
+    
+  
+
+</style>

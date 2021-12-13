@@ -7,16 +7,7 @@ namespace PROJETO01.Controllers
 {
     public class EspecialidadeController : Controller
     {
-        public IActionResult Index(int idEpec, string especialidade)
-        {
-            var objeto = new EspecialidadeB();
-            objeto.IdEspecialidade = idEpec;
-            objeto.Especialidade = especialidade;
-
-            return View(objeto);
-           
-        }
-
+       
         [HttpGet]
         public IActionResult Adicionar()
         {

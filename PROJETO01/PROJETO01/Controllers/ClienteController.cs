@@ -7,10 +7,7 @@ namespace PROJETO01.Controllers
 {
     public class ClienteController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+       
 
         [HttpGet]
         public IActionResult Adicionar()
@@ -43,6 +40,35 @@ namespace PROJETO01.Controllers
                 db.Cliente.Update(obj);
             }
 
+            db.SaveChanges();
+
+            return RedirectToAction("Listar");
+        }
+
+        public IActionResult Listar()
+        {
+
+            //SELECT * FROM barbeiro
+            var listaDeClientes = new Contexto().Cliente.ToList();
+            
+            return View(listaDeClientes);
+        }
+
+        [HttpGet]
+        public IActionResult Editar(int IdCliente)
+        {
+            var db = new Contexto();
+            var cliente = db.Cliente.First(item => item.IdCliente == IdCliente);
+            return View("Adicionar", cliente);
+
+        }
+
+
+        public IActionResult Excluir(int IdCliente)
+        {
+            var db = new Contexto();
+            var cliente = db.Cliente.First(f => f.IdCliente == IdCliente);
+            db.Cliente.Remove(cliente);
             db.SaveChanges();
 
             return RedirectToAction("Listar");

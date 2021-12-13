@@ -1,0 +1,37 @@
+﻿@model List<PROJETO01.Modelos.Cidade>
+
+<h3>
+    CADASTRO DE CIDADES
+    <a class="btn btn-sm btn-primary float-right" href="/Cidade/Adicionar">
+        + ADICIONAR
+    </a>
+</h3>
+
+<table class="table table-hover ">
+    <thead>
+        <tr>
+            <th>IdCidade</th>
+            <th>UF</th>
+            <th>Nome</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdCidade</td>
+                <td>@item.UF</td>
+                <td>@item.Nome</td>
+                <td>
+                    <a href="/Cidade/Editar?IdCidade=@item.IdCidade" class="btn btn-sm btn-warning">
+                        Editar
+                    </a>
+                    <a href="/Cidade/Excluir?IdCidade=@item.IdCidade" class="btn btn-sm btn-danger">
+                        Excluir
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
