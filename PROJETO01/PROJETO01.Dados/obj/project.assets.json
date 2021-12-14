@@ -5719,25 +5719,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\redsh\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\040684\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
+      "projectUniqueName": "C:\\Users\\040684\\Desktop\\ProjetoFinal\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
       "projectName": "PROJETO01.Dados",
-      "projectPath": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
-      "packagesPath": "C:\\Users\\redsh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\obj\\",
+      "projectPath": "C:\\Users\\040684\\Desktop\\ProjetoFinal\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
+      "packagesPath": "C:\\Users\\040684\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\040684\\Desktop\\ProjetoFinal\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\redsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\040684\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5750,8 +5753,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj": {
-              "projectPath": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj"
+            "C:\\Users\\040684\\Desktop\\ProjetoFinal\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj": {
+              "projectPath": "C:\\Users\\040684\\Desktop\\ProjetoFinal\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj"
             }
           }
         }
