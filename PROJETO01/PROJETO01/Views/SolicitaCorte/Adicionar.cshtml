@@ -1,0 +1,73 @@
+﻿@model PROJETO01.Modelos.SolicitarCorte
+
+<form asp-controller="SolicitaCorte" asp-action="AdicionarConfirmacao" method="post">
+    <div class="mb-3 mt-4">
+        <label for="IdSolicitacao" class="form-label">IdSolicitacao:</label>
+        <input asp-for="IdSolicitacao" type="text" class="form-control" placeholder="Digite o IdSolicitacao" />
+    </div>
+
+    <div class="mb-3 mt-4">
+        <label for="IdCliente" class="form-label">Cliente:</label>
+        @Html.DropDownListFor(
+               item => item.IdCliente,
+               new SelectList(ViewBag.Cliente, "IdCliente", "Nome"),
+               "-- Selecione --",
+               new { @class = "form-control" }
+           )
+    </div>
+
+    <div class="mb-3">
+        <label for="IdBarbeiro" class="form-label">Barbeiro:</label>
+        @Html.DropDownListFor(
+               item => item.IdBarbeiro,
+               new SelectList(ViewBag.Barbeiro, "IdBarbeiro", "Nome"),
+               "-- Selecione --",
+               new { @class = "form-control" }
+           )
+    </div>
+
+    <div class="mb-3">
+        <label for="IdCidade" class="form-label">Cidade:</label>
+        @Html.DropDownListFor(
+              item => item.IdCidade,
+              new SelectList(ViewBag.Cidade, "IdCidade", "Nome"),
+              "-- Selecione --",
+              new { @class = "form-control" }
+          )
+    </div>
+
+    <div class="mb-3">
+        <label for="PrecoCorte" class="form-label">Preço corte:</label>
+        <input asp-for="PrecoCorte" type="text" class="form-control" placeholder="Preço corte" />
+    </div>
+
+    <div class="mb-3">
+        <label for="Logradouro" class="form-label">Logradouro:</label>
+        <input asp-for="Logradouro" type="text" class="form-control" placeholder="Digite o Logradouro" />
+    </div>
+
+    <div class="mb-3">
+        <label for="Bairro" class="form-label">Bairro:</label>
+        <input asp-for="Bairro" type="text" class="form-control" placeholder="Digite o Bairro" />
+    </div>
+
+    <div class="mb-3">
+        <label for="Complemento" class="form-label">Complemento:</label>
+        <input asp-for="Complemento" type="text" class="form-control" placeholder="Digite o Complemento" />
+    </div>
+
+    <div class="mb-3">
+        <label for="Numero" class="form-label">Numero:</label>
+        <input asp-for="Numero" type="text" class="form-control" placeholder="Digite o Numero" />
+    </div>
+    <hr />
+
+    <a href="#" class="btn btn-secondary" onclick="javascript:history.back()">
+        VOLTAR
+    </a>
+
+    <button type="submit" class="btn btn-success float-right">
+        SOLICITAR
+    </button>
+
+</form>

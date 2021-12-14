@@ -19,6 +19,6 @@ namespace PROJETO01.Modelos
         public int IdEspecialidade { get; set; }
 
         public EspecialidadeB EspecialidadeB { get; set; }
-
+        
     }
 }

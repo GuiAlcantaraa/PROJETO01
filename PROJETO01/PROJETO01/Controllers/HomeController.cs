@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using PROJETO01.Dados.EntityFramework;
 using PROJETO01.Models;
 using System;
 using System.Collections.Generic;
@@ -18,10 +19,11 @@ namespace PROJETO01.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index(int disciplinaId, string nome)
-        {
-
-            return View();
+        public IActionResult Index() { 
+            var listaDeFestas = new Contexto().Barbeiro.ToList();
+            return View(listaDeFestas);
+        
+        
         }
 
         public IActionResult Privacy()

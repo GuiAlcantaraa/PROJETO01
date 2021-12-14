@@ -11,8 +11,13 @@ namespace PROJETO01.Controllers
         [HttpGet]
         public IActionResult Adicionar()
         {
+            var db = new Contexto();
+            ViewBag.Cliente = db.Cliente.ToList();
+            ViewBag.Barbeiro = db.Barbeiro.ToList();
+            ViewBag.Cidade = db.Cidade.ToList();
             return View();
         }
+
         public IActionResult AdicionarConfirmacao(SolicitarCorte solicitarcorte)
         {
             var db = new Contexto();
@@ -26,19 +31,31 @@ namespace PROJETO01.Controllers
             {
                 obj.IdCliente = solicitarcorte.IdCliente;
                 obj.IdBarbeiro = solicitarcorte.IdBarbeiro;
+                obj.IdCidade = solicitarcorte.IdCidade;
+                obj.PrecoCorte = solicitarcorte.PrecoCorte;
+                obj.Logradouro = solicitarcorte.Logradouro;
+                obj.Bairro = solicitarcorte.Bairro;
+                obj.Complemento = solicitarcorte.Complemento;
+                obj.Numero = solicitarcorte.Numero;
+
                 db.SolicitarCorte.Update(obj);
             }
 
             db.SaveChanges();
-
+            
             return RedirectToAction("Listar");
         }
 
-
+        
         [HttpGet]
         public IActionResult Editar(int IdSolicitacao)
         {
+           
+          
             var db = new Contexto();
+            ViewBag.Cliente = db.Cliente.ToList();
+            ViewBag.Barbeiro = db.Barbeiro.ToList();
+            ViewBag.Cidade = db.Cidade.ToList();
             var corte = db.SolicitarCorte.First(item => item.IdSolicitacao == IdSolicitacao);
             return View("Adicionar", corte);
         }

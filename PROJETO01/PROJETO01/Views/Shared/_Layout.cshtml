@@ -17,13 +17,13 @@
 </head>
 
 <body>
-   <header>
+    <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"> <h3>Barber-On</h3></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                         <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse navbar-dark">
                     <ul class="navbar-nav flex-grow-1">
@@ -40,36 +40,42 @@
                             <a class="nav-link text-light" asp-area="" asp-controller="Cliente" asp-action="Listar">Cliente</a>
                         </li>
 
-                          <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="Estado" asp-action="Listar">Estados</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Cidade" asp-action="Listar">Cidade</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Cidade" asp-action="Listar">Cidades</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="SolicitaCorte" asp-action="Listar">SolicitaCorte</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
 
-               <form class="form-inline">
-                     <button class="btn btn-outline-primary my-2 my-sm-0 mr-2" type="submit">Entrar</button>
+            <form class="form-inline">
+                <button class="btn btn-outline-primary my-2 my-sm-0 mr-2" type="submit">Entrar</button>
                 <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Cadastrar</button>
-              </form>
+            </form>
         </nav>
     </header>
-    
+
 
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-   
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("Scripts", required: false)
 
-   
+
+
 </body>
 </html>

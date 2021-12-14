@@ -234,16 +234,61 @@ namespace PROJETO01.Dados.EntityFramework
                                        .HasColumnType("int")
                                        .IsRequired();
 
-                    modelBuilder.Entity<SolicitarCorte>()
-                       .HasOne(f => f.cliente)
-                       .WithMany()
-                       .HasForeignKey(f => f.IdCliente);
+                                        modelBuilder.Entity<SolicitarCorte>()
+                                                                   .Property(f => f.IdCidade)
+                                                                   .HasColumnName("IdCidade")
+                                                                   .HasColumnType("int")
+                                                                   .IsRequired();
+
+                                        modelBuilder.Entity<SolicitarCorte>()
+                                        .Property(f => f.PrecoCorte)
+                                        .HasColumnName("PrecoCorte")
+                                        .HasColumnType("float")
+                                        .IsRequired();
+
+
+                                        modelBuilder.Entity<SolicitarCorte>()
+                                        .Property(f => f.Logradouro)
+                                        .HasColumnName("Logradouro")
+                                        .HasColumnType("varchar(200)")
+                                        .IsRequired();
+
+                                        modelBuilder.Entity<SolicitarCorte>()
+                                        .Property(f => f.Complemento)
+                                        .HasColumnName("Complemento")
+                                        .HasColumnType("varchar(100)")
+                                        .IsRequired();
+
+                                       modelBuilder.Entity<SolicitarCorte>()
+                                     .Property(f => f.Bairro)
+                                     .HasColumnName("Bairro")
+                                     .HasColumnType("varchar(200)")
+                                     .IsRequired();
+
+                                       modelBuilder.Entity<SolicitarCorte>()
+                                     .Property(f => f.Numero)
+                                     .HasColumnName("Numero")
+                                     .HasColumnType("varchar(200)")
+                                     .IsRequired();
+
+                        modelBuilder.Entity<SolicitarCorte>()
+                           .HasOne(f => f.cliente)
+                           .WithMany()
+                           .HasForeignKey(f => f.IdCliente);
 
 
                         modelBuilder.Entity<SolicitarCorte>()
                            .HasOne(f => f.barbeiro)
                            .WithMany()
                            .HasForeignKey(f => f.IdBarbeiro);
+
+                        modelBuilder.Entity<SolicitarCorte>()
+                         .HasOne(f => f.cidade)
+                         .WithMany()
+                         .HasForeignKey(f => f.IdCidade);
+
+
+
 
 
             base.OnModelCreating(modelBuilder);

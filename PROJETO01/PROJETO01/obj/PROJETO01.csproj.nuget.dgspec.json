@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01\\PROJETO01.csproj": {}
+    "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01\\PROJETO01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj": {
+    "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
+        "projectUniqueName": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
         "projectName": "PROJETO01.Dados",
-        "projectPath": "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
-        "packagesPath": "C:\\Users\\guilherme.machado\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\obj\\",
+        "projectPath": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
+        "packagesPath": "C:\\Users\\redsh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\guilherme.machado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\redsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj": {
-                "projectPath": "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj"
+              "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj": {
+                "projectPath": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj"
               }
             }
           }
@@ -72,24 +72,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj": {
+    "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj",
+        "projectUniqueName": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj",
         "projectName": "PROJETO01.Modelos",
-        "projectPath": "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj",
-        "packagesPath": "C:\\Users\\guilherme.machado\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\obj\\",
+        "projectPath": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj",
+        "packagesPath": "C:\\Users\\redsh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\guilherme.machado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\redsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -130,24 +130,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01\\PROJETO01.csproj": {
+    "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01\\PROJETO01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01\\PROJETO01.csproj",
+        "projectUniqueName": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01\\PROJETO01.csproj",
         "projectName": "PROJETO01",
-        "projectPath": "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01\\PROJETO01.csproj",
-        "packagesPath": "C:\\Users\\guilherme.machado\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01\\obj\\",
+        "projectPath": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01\\PROJETO01.csproj",
+        "packagesPath": "C:\\Users\\redsh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\guilherme.machado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\redsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -162,11 +162,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj": {
-                "projectPath": "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj"
+              "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj": {
+                "projectPath": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj"
               },
-              "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj": {
-                "projectPath": "C:\\Users\\guilherme.machado\\Desktop\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj"
+              "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj": {
+                "projectPath": "C:\\Users\\redsh\\OneDrive\\Área de Trabalho\\GIT\\PROJETO01\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj"
               }
             }
           }
@@ -208,7 +208,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

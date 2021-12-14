@@ -1,43 +1,34 @@
-﻿
+﻿@model List<PROJETO01.Modelos.Barbeiro>
 
 @{
     ViewData["Title"] = "Home Page";
 }
-    
+
 
 <div class="row mt-5 ">
-     
-      
-          <div class="col-lg-4" >
-            <img class="rounded-circle" src="./img/perfil.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Carlos</h2>
-            <p>Preço do corte R$ 25,00</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Solicitar corte &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="./img/perfil.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Samuel</h2>
-            <p>Preço do corte R$ 35,00</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Solicitar corte  &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4 ">
-            <img class="rounded-circle" src="./img/perfil.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Fulano</h2>
-            <p> Preço do corte R$ 45,00</p>
-            <p><a class="btn btn-secondary" href="/Estado/Adicionar" role="button">Solicitar corte  &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          
-   </div><!-- /.row -->
- 
+
+    @foreach (var item in Model)
+    {
+        <div class="card ml-5 mt-3" style="width: 18rem;">
+            <img class="card-img-top" src="./img/perfil.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Barbeiro: @item.Nome</h5>
+                <p class="card-text">Preço corte: @string.Format("{0:c2}", item.PrecoCorte)</p>
+                <p class="card-text">Telefone: @Convert.ToInt64(item.Telefone).ToString(@"(00)00000-0000")</p>
+                <a href="/SolicitaCorte/Adicionar" class="btn btn-primary">Solicitar corte</a>
+            </div>
+        </div>
+
+        
+    }
+    </div><!-- /.row -->
+
 
 <style>
 
-    
-    
-    body{
+
+
+    body {
         background: #e6e6e6;
     }
-
-
-
 </style>

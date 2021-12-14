@@ -63,3 +63,16 @@ C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\D
 C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CopyComplete
 C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.dll
 C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.pdb
+C:\Users\redsh\OneDrive\Área de Trabalho\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.deps.json
+C:\Users\redsh\OneDrive\Área de Trabalho\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.dll
+C:\Users\redsh\OneDrive\Área de Trabalho\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.pdb
+C:\Users\redsh\OneDrive\Área de Trabalho\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
+C:\Users\redsh\OneDrive\Área de Trabalho\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb
+C:\Users\redsh\OneDrive\Área de Trabalho\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.AssemblyReference.cache
+C:\Users\redsh\OneDrive\Área de Trabalho\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\redsh\OneDrive\Área de Trabalho\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.AssemblyInfoInputs.cache
+C:\Users\redsh\OneDrive\Área de Trabalho\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.AssemblyInfo.cs
+C:\Users\redsh\OneDrive\Área de Trabalho\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CoreCompileInputs.cache
+C:\Users\redsh\OneDrive\Área de Trabalho\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CopyComplete
+C:\Users\redsh\OneDrive\Área de Trabalho\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.dll
+C:\Users\redsh\OneDrive\Área de Trabalho\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.pdb

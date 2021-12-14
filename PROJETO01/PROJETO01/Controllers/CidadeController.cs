@@ -39,7 +39,7 @@ namespace PROJETO01.Controllers
 
             return RedirectToAction("Listar");
         }
-
+        
         [HttpGet]
         public IActionResult Editar(int IdCidade)
         {
