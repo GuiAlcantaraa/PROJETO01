@@ -13,5 +13,6 @@ namespace PROJETO01.Modelos
         public string UF { get; set; }
 
         public Estado Estado { get; set; }
+
     }
 }

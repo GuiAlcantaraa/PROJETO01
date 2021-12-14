@@ -2,14 +2,14 @@
 
 
 <form asp-controller="Cliente" asp-action="AdicionarConfirmacao" method="post">
-    <div class="mb-3">
+    <div class="mb-3 mt-4">
         <label for="IdCliente" class="form-label">IdCliente:</label>
-        <input asp-for="IdCliente" type="text" class="form-control" placeholder="Digite o id do cliente" />
+        <input asp-for="IdCliente" type="text" class="form-control" placeholder="Digite o Id" />
     </div>
 
     <div class="mb-3">
         <label for="Nome" class="form-label">Nome:</label>
-        <input asp-for="Nome" type="text" class="form-control" placeholder="Digite o nome do cliente" />
+        <input asp-for="Nome" type="text" class="form-control" placeholder="Digite o nome" />
     </div>
 
     <div class="mb-3">
@@ -24,7 +24,7 @@
 
     <div class="mb-3">
         <label for="Telefone" class="form-label">Telefone:</label>
-        <input asp-for="Telefone" type="text" class="form-control" placeholder="Digite o sexo" />
+        <input asp-for="Telefone" type="text" class="form-control" placeholder="Digite o telefone" />
     </div>
 
 
@@ -56,8 +56,13 @@
 
 
     <div class="mb-3">
-        <label for="IdCidade" class="form-label">IdCidade:</label>
-        <input asp-for="IdCidade" type="text" class="form-control" placeholder="Digite o IdCidade" />
+        <label for="IdCidade" class="form-label">Cidade:</label>
+         @Html.DropDownListFor(
+               item => item.IdCidade,
+               new SelectList(ViewBag.Cidade, "IdCidade", "Nome"),
+               "-- Selecione --",
+               new { @class = "form-control" }
+           )
     </div>
 
 

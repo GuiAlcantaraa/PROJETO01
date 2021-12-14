@@ -27,9 +27,7 @@ namespace PROJETO01.Dados.EntityFramework
         public DbSet<Cliente> Cliente { get; set; }
         public DbSet <Barbeiro> Barbeiro { get; set; }
         public DbSet <EspecialidadeB> EspecialidadeB { get; set; }
-
-
-       
+        public DbSet<SolicitarCorte> SolicitarCorte { get; set; }
 
         //Definição das características das classes com as tabelas
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -213,7 +211,44 @@ namespace PROJETO01.Dados.EntityFramework
                                    .IsRequired();
 
 
+
+                                        modelBuilder.Entity<SolicitarCorte>()
+                                       .ToTable("solicitarCorte")
+                                       .HasKey("IdSolicitacao");
+
+                                        modelBuilder.Entity<SolicitarCorte>()
+                                        .Property(f => f.IdSolicitacao)
+                                        .HasColumnName("IdSolicitacao")
+                                        .HasColumnType("int")
+                                        .IsRequired();
+
+                                        modelBuilder.Entity<SolicitarCorte>()
+                                        .Property(f => f.IdCliente)
+                                        .HasColumnName("IdCliente")
+                                        .HasColumnType("int")
+                                        .IsRequired();
+
+                                         modelBuilder.Entity<SolicitarCorte>()
+                                       .Property(f => f.IdBarbeiro)
+                                       .HasColumnName("IdBarbeiro")
+                                       .HasColumnType("int")
+                                       .IsRequired();
+
+                    modelBuilder.Entity<SolicitarCorte>()
+                       .HasOne(f => f.cliente)
+                       .WithMany()
+                       .HasForeignKey(f => f.IdCliente);
+
+
+                        modelBuilder.Entity<SolicitarCorte>()
+                           .HasOne(f => f.barbeiro)
+                           .WithMany()
+                           .HasForeignKey(f => f.IdBarbeiro);
+
+
             base.OnModelCreating(modelBuilder);
+
+
 
         }
         

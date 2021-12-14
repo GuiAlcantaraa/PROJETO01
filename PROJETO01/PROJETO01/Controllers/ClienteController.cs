@@ -13,6 +13,10 @@ namespace PROJETO01.Controllers
         [HttpGet]
         public IActionResult Adicionar()
         {
+
+            var db = new Contexto();
+            ViewBag.Cidade = db.Cidade.ToList();
+
             return View();
         }
 
@@ -62,6 +66,7 @@ namespace PROJETO01.Controllers
         public IActionResult Editar(int IdCliente)
         {
             var db = new Contexto();
+            ViewBag.Cidade = db.Cidade.ToList();
             var cliente = db.Cliente.First(item => item.IdCliente == IdCliente);
             return View("Adicionar", cliente);
 

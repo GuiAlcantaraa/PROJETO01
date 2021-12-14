@@ -38,3 +38,13 @@ C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO0
 C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.csproj.CoreCompileInputs.cache
 C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
 C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Modelos\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.deps.json
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Modelos\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Modelos\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.csproj.AssemblyReference.cache
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.AssemblyInfoInputs.cache
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.AssemblyInfo.cs
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb

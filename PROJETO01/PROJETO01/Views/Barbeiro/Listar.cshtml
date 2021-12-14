@@ -1,6 +1,6 @@
 ﻿@model List<PROJETO01.Modelos.Barbeiro>
 
-<h3>
+<h3 class ="mt-3">
     CADASTRO DE BARBEIROS 
     <a class="btn btn-sm btn-primary float-right" href="/Barbeiro/Adicionar">
         + ADICIONAR
@@ -8,14 +8,14 @@
 </h3>
 
 <table class="table table-hover ">
-         <thead>
-              <tr>
+         <thead id="theadPosition">
+              <tr id="size">
                 <th>IdBarbeiro</th>
                 <th>Nome</th>
-                <th>cpf</th>
+                <th>Cpf</th>
                 <th>Telefone</th>
                 <th>Especialidade</th>
-                <th>PrecoCorte</th>
+                <th>Preço Corte</th>
                 <th>Ações</th>
               </tr>
         </thead>
@@ -26,7 +26,7 @@
                 <td>@item.IdBarbeiro</td>
                 <td>@item.Nome</td>
                 <td>@Convert.ToInt64(item.cpf).ToString(@"000\.000\.000\-00")</td>
-                <td>@item.Telefone</td>
+                <td>@Convert.ToInt64(item.Telefone).ToString(@"(00)00000-0000")</td>
                 <td>@item.EspecialidadeB.Especialidade</td>
                 <td>@string.Format("{0:c2}", item.PrecoCorte)</td>
 
@@ -42,3 +42,23 @@
         }
     </tbody>
 </table>
+<style>
+    
+    body{
+        background: #e6e6e6;
+    }
+
+      #theadPosition{
+      
+        background: #cccccc;
+    }
+      th{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #size{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+ 
+</style>

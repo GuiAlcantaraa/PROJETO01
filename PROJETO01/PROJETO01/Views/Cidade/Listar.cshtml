@@ -1,6 +1,6 @@
 ﻿@model List<PROJETO01.Modelos.Cidade>
 
-<h3>
+<h3 class ="mt-3">
     CADASTRO DE CIDADES
     <a class="btn btn-sm btn-primary float-right" href="/Cidade/Adicionar">
         + ADICIONAR
@@ -8,8 +8,8 @@
 </h3>
 
 <table class="table table-hover ">
-    <thead>
-        <tr>
+    <thead id="theadPosition">
+        <tr id="size">
             <th>IdCidade</th>
             <th>UF</th>
             <th>Nome</th>
@@ -35,3 +35,24 @@
         }
     </tbody>
 </table>
+<style>
+    
+    body{
+        background: #e6e6e6;
+    }
+
+     #theadPosition{
+      
+        background: #cccccc;
+    }
+
+     th{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #size{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+  
+</style>

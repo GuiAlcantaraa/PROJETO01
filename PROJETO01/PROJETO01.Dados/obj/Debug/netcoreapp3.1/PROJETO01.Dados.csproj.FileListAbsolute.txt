@@ -50,3 +50,16 @@ C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.
 C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CopyComplete
 C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.dll
 C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.pdb
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.deps.json
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.dll
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.pdb
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.AssemblyReference.cache
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.AssemblyInfoInputs.cache
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.AssemblyInfo.cs
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CopyComplete
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.dll
+C:\Users\guilherme.machado\Desktop\GIT\PROJETO01\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.pdb

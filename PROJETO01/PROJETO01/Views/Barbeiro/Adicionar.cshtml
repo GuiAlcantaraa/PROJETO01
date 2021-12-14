@@ -2,7 +2,7 @@
 
 
 <form asp-controller="Barbeiro" asp-action="AdicionarConfirmacao" method="post">
-    <div class="mb-3">
+    <div class="mb-3 mt-4">
         <label for="IdBarbeiro" class="form-label">IdBarbeiro:</label>
         <input asp-for="IdBarbeiro" type="text" class="form-control" placeholder="Digite o id do Barbeiro" />
     </div>
@@ -23,7 +23,7 @@
     </div>
 
     <div class="mb-3">
-        <label for="IdEspecialidade" class="form-label">IdEspecialidade:</label>
+        <label for="IdEspecialidade" class="form-label">Especialidade:</label>
         @Html.DropDownListFor(
                item => item.IdEspecialidade,
                new SelectList(ViewBag.Especialidade, "IdEspecialidade", "Especialidade"),
@@ -32,12 +32,6 @@
            )
     </div>
 
-    @*@Html.DropDownListFor(
-            item => item.CidadeID,
-            new SelectList(ViewBag.Cidade, "CidadeID", "Nome"),
-            "-- Selecione --",
-            new { @class = "form-control" }
-        )*@
     <div class="mb-3">
         <label for="PrecoCorte" class="form-label">PrecoCorte:</label>
         <input asp-for="PrecoCorte" type="text" class="form-control" placeholder="Digite o preço do corte" />

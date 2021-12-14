@@ -10,25 +10,8 @@ namespace PROJETO01.Controllers
 {
     public class BarbeiroController : Controller
     {
-        public IActionResult Index(
-          int IdBarbeiro, 
-          string Nome, 
-          string cpf, 
-          float PrecoCorte,
-          string Telefone,
-          int IdEspecialidade
-          )
-        {
-            var obj = new Barbeiro();
-            obj.IdBarbeiro = IdBarbeiro;
-            obj.Nome = Nome;
-            obj.cpf = cpf;
-            obj.PrecoCorte = PrecoCorte;
-            obj.Telefone = Telefone;
-            obj.IdEspecialidade = IdEspecialidade;
-
-            return View(obj);
-        }
+       
+    
         [HttpGet]
         public IActionResult Adicionar()
         {
@@ -84,6 +67,7 @@ namespace PROJETO01.Controllers
         public IActionResult Editar(int IdBarbeiro)
         {
             var db = new Contexto();
+            ViewBag.Especialidade = db.EspecialidadeB.ToList();
             var barbeiro = db.Barbeiro.First(item => item.IdBarbeiro == IdBarbeiro);
             return View("Adicionar", barbeiro);
         }
