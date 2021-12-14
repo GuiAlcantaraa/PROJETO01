@@ -50,6 +50,8 @@ namespace PROJETO01.Dados.EntityFramework
          .HasColumnName("Nome")
          .HasColumnType("varchar(100)")
          .IsRequired();
+
+
         //
              modelBuilder.Entity<Cidade>()
              .ToTable("Cidade")

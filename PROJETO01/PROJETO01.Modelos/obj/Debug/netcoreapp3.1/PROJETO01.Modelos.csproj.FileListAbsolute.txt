@@ -28,3 +28,13 @@ D:\github\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO0
 D:\github\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.csproj.CoreCompileInputs.cache
 D:\github\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
 D:\github\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb
+C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.deps.json
+C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
+C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb
+C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.csproj.AssemblyReference.cache
+C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.AssemblyInfoInputs.cache
+C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.AssemblyInfo.cs
+C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.csproj.CoreCompileInputs.cache
+C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
+C:\GITHUB\PROJETO01\PROJETO01\PROJETO01.Modelos\obj\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb

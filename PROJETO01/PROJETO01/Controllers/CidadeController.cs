@@ -1,5 +1,6 @@
 ﻿
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PROJETO01.Dados.EntityFramework;
 using PROJETO01.Modelos;
 using System;
@@ -51,7 +52,11 @@ namespace PROJETO01.Controllers
         {
 
             //SELECT * FROM Estado
-            var listaDeCidades = new Contexto().Cidade.ToList();
+            var listaDeCidades = new Contexto()
+                .Cidade
+                .Include(f => f.Estado)
+                .ToList();
+           
 
             return View(listaDeCidades);
         }

@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using PROJETO01.Dados.EntityFramework;
 using PROJETO01.Modelos;
+using PROJETO01.validations;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace PROJETO01.Controllers
@@ -30,11 +32,32 @@ namespace PROJETO01.Controllers
         [HttpGet]
         public IActionResult Adicionar()
         {
+            var db = new Contexto();
+            ViewBag.Especialidade = db.EspecialidadeB.ToList();
             return View();
         }
 
         public IActionResult AdicionarConfirmacao(Barbeiro barbeiro)
+
         {
+            BarbeiroValidation produtoValidation = new BarbeiroValidation();
+
+            var validacao = produtoValidation.Validate(barbeiro);
+
+
+            if (!validacao.IsValid)
+            {
+                List<string> erros = new List<string>();
+                foreach (var failure in validacao.Errors)
+                {
+                    erros.Add("Property " + failure.PropertyName +
+                        " failed validation. Error Was: "
+                        + failure.ErrorMessage);
+                }
+
+                return BadRequest(erros);
+            }
+
             var db = new Contexto();
             var obj = db.Barbeiro.FirstOrDefault(f => f.IdBarbeiro == barbeiro.IdBarbeiro);
 
